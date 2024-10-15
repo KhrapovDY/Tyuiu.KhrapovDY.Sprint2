@@ -10,8 +10,8 @@ namespace Tyuiu.KhrapovDY.Sprint2.Task7.V1.Test
         {
             DataService ds = new DataService();
 
-            double x = 0.2;
-            double y = 0.4;
+            double x = 0.1;
+            double y = 0.5;
 
             bool res = ds.CheckDotInShadedArea(x, y);
 
